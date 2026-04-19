@@ -5,7 +5,7 @@ print("--- Сценарии №1 и №2 ---")
 p1 = Player("MaxVerstappen", "mage", level=10, health=200, experience=5000)
 p2 = Player("MaxVerstappen", "warrior")
 p3 = Player("MaxVerstappen", "mage")
-
+    
 print(f"Создан игрок (str):\n{p1}")
 print(f"Отладочный вывод (repr):\n{repr(p1)}")
 print(f"\np1 == p2? {p1 == p2} (разные классы)")
