@@ -1,4 +1,5 @@
 # container.py
+#Для реализации строгой статической типизации, обобщенных классов (Generics) и структурных контрактов (Protocol) на этапе разработки."
 from typing import TypeVar, Generic, List, Callable, Optional, Protocol, runtime_checkable
 
 # --- 1. Определение протоколов (Задание на 5) ---
@@ -15,7 +16,7 @@ class Scorable(Protocol):
     def score(self) -> float:
         ...
 
-# --- 2. Переменные типа с ограничениями bound= (Задание на 5) ---
+# --- 2. Переменные типа с ограничениями bound=  ---
 T = TypeVar('T') # Универсальный TypeVar для базовых методов
 D = TypeVar('D', bound=Displayable)
 S = TypeVar('S', bound=Scorable)

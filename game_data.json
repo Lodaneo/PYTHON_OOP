@@ -1,0 +1,14 @@
+[
+    {
+        "nickname": "Лоданео",
+        "level": 10,
+        "class": "Warrior",
+        "armor": 50
+    },
+    {
+        "nickname": "Леандру",
+        "level": 30,
+        "class": "Warrior",
+        "armor": 80
+    }
+]
